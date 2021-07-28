@@ -1,0 +1,109 @@
+body {
+  background-color: #CCC7B9;
+  font-family: Raleway, sans-serif;
+  color: #262322;
+  font-size: 20px;
+  line-height: 2;
+}
+
+h1 {
+  font-family: 'Petit Formal Script', cursive;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 32px;
+  color: #564D4A;
+  font-weight: 200;
+}
+
+h2 {
+  color: #564D4A;
+  font-weight: 550;
+}
+
+h3 {
+  font-size: 24px;
+  color: #564D4A;
+  line-height: 20px;
+  font-weight: 600;
+ }
+
+ p{
+  color: #564D4A;
+  font-weight: 300;
+ }
+ a {
+   text-decoration: none;
+   color: #595260;
+ }
+
+ a:hover {
+  color: #2C2E43
+ }
+
+ .container {
+  background-color: floralwhite;
+  width: 500px;
+  padding: 36px;
+  margin: 0 auto;
+  text-align: center;
+ }
+
+ .footer {
+   background-color: floralwhite;
+   width: 500px;
+   margin: 16px auto;
+   padding: 36px;
+   line-height: 3;
+   text-align: center;
+ }
+
+ #img-circle {
+  width: 100px;
+  border-radius: 50%;
+ }
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+.fab {
+  font-size: 32px;
+}
+
+.btn {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+@media (max-width: 960px) {
+    .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
